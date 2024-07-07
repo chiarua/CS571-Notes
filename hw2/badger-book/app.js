@@ -76,7 +76,7 @@ class Students {
 }
 
 let STUDENTS;
-fetch("https://cs571.org/api/s24/hw2/students", {
+fetch("https://cs571.org/api/s24/hw2/students-xss", {
 	headers: {
 		"X-CS571-ID": "bid_fa_bb0bba617230837b1191c58d3ef68928dc448afd429cc0000459a20d5988fff7"
 	}
